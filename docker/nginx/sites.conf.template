@@ -1,0 +1,11 @@
+# 站点主配置
+
+server {
+    listen 80;
+    server_name www.${X_DOMAIN};
+    root /project/web;
+    index index.php;
+
+    include project/php.include;
+    include project/static.include;
+}
