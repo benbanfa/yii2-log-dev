@@ -1,8 +1,8 @@
-# benbanfa/yii2-log 开发环境
+# zii/log 开发环境
 
 本仓库包含：
 
-- 集成了 benbanfa/yii2-log 扩展的 Yii2 项目
+- 集成了 zii/log 扩展的 Yii2 项目
 - Docker Compose 配置
 
 其中，Docker Compose 配置实现的是通过 Fluentd 将日志采集、归档至 `mysql` 容器 `dev` 库的 `log` 表：

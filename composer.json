@@ -1,11 +1,11 @@
 {
-    "name": "benbanfa/yii2-log-dev",
-    "description": "benbanfa/yii2-log-dev",
+    "name": "benbanfa/zii-log-dev",
+    "description": "benbanfa/zii-log-dev",
     "type": "library",
     "require": {
         "php": ">=7.1.0",
         "benbanfa/exclude-composer-assets": "dev-master",
-        "benbanfa/yii2-log": "dev-master"
+        "zii/log": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7",

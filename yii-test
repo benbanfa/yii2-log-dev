@@ -9,7 +9,7 @@ define('YII_DEBUG', true);
 require __DIR__.'/bootstrap.php';
 
 $config = [
-    'id' => 'yii2-log-console-test',
+    'id' => 'zii-log-console-test',
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',

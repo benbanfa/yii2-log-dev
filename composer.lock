@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "910762e6b424fdc50ef98e5c17aeba17",
+    "content-hash": "c3bcb56646c3a4784be4e9bf32e60ee5",
     "packages": [
         {
             "name": "benbanfa/exclude-composer-assets",
@@ -32,42 +32,6 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "benbanfa/exclude-composer-assets",
             "time": "2019-11-26T05:14:16+00:00"
-        },
-        {
-            "name": "benbanfa/yii2-log",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/benbanfa/yii2-log.git",
-                "reference": "5949dfe5ec7947db4abc31abdeb9bfe299fbd7e4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/benbanfa/yii2-log/zipball/5949dfe5ec7947db4abc31abdeb9bfe299fbd7e4",
-                "reference": "5949dfe5ec7947db4abc31abdeb9bfe299fbd7e4",
-                "shasum": ""
-            },
-            "require": {
-                "fluent/logger": "^1.0",
-                "php": ">=7.1.0",
-                "yiisoft/yii2": "^2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7",
-                "vlucas/phpdotenv": "^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "zii\\log\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "benbanfa/yii2-log",
-            "time": "2019-11-26T09:00:52+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -383,6 +347,42 @@
                 "yii2"
             ],
             "time": "2019-07-16T13:22:30+00:00"
+        },
+        {
+            "name": "zii/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/benbanfa/zii-log.git",
+                "reference": "a9ca5504c92cadc0e405da725f1f66e3c30fe94d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/benbanfa/zii-log/zipball/a9ca5504c92cadc0e405da725f1f66e3c30fe94d",
+                "reference": "a9ca5504c92cadc0e405da725f1f66e3c30fe94d",
+                "shasum": ""
+            },
+            "require": {
+                "fluent/logger": "^1.0",
+                "php": ">=7.1.0",
+                "yiisoft/yii2": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7",
+                "vlucas/phpdotenv": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "zii\\log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "zii/log",
+            "time": "2019-11-27T03:39:23+00:00"
         }
     ],
     "packages-dev": [
@@ -1965,7 +1965,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "benbanfa/exclude-composer-assets": 20,
-        "benbanfa/yii2-log": 20
+        "zii/log": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

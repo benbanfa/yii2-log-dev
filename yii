@@ -6,7 +6,7 @@
 require __DIR__.'/bootstrap.php';
 
 $config = [
-    'id' => 'yii2-log-console-dev',
+    'id' => 'zii-log-console-dev',
 ];
 
 $config = \yii\helpers\ArrayHelper::merge(
